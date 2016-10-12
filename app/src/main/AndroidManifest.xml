@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.json_parsing">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".firstsem" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".LaunchScreeen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                android:theme="@style/MyCustomTheme"
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".semchoice" />
+        <activity android:name=".stream" />
+        <activity android:name=".secondsem" />
+        <activity android:name=".thirdsem" />
+        <activity android:name=".fourthsem" />
+        <activity android:name=".fifthsem" />
+        <activity android:name=".sixthsem" />
+        <activity android:name=".seventhsem" />
+        <activity android:name=".eigthsem" />
+        <activity android:name=".working" />
+        <activity
+            android:name=".working2"
+            android:label="@string/title_activity_orking2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

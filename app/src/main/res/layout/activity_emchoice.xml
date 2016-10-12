@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".semchoice">
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/odd"
+        android:background="#FF8A80"
+android:textSize="25dp"
+        android:text="Odd"
+android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF8A80"
+        android:id="@+id/even"
+        android:textSize="25dp"
+        android:layout_marginTop="67dp"
+        android:text="EVEN"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_below="@+id/odd"
+        android:layout_alignLeft="@+id/odd"
+        android:layout_alignStart="@+id/odd" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CHOOSE  SEM"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#FF1744"
+        android:id="@+id/textView2"
+        android:layout_marginTop="54dp"
+        android:fontFamily="cursive"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:textAlignment="center"
+       />
+
+</RelativeLayout>
